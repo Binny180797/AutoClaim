@@ -160,7 +160,6 @@
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\InsurancePolicy.cs" />
     <Compile Include="Models\RegisteredUser.cs" />
-    <Compile Include="Models\vindho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
