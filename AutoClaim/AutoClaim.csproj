@@ -156,6 +156,7 @@
     <Compile Include="Models\Assessor.cs" />
     <Compile Include="Models\Authorizer.cs" />
     <Compile Include="Models\Claim.cs" />
+    <Compile Include="Models\New.cs" />
     <Compile Include="Models\Policy.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\InsurancePolicy.cs" />
