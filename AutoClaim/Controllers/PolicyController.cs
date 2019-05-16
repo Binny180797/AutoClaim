@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AutoClaim.ViewModel;
+using System.Data.Entity;
 
 namespace AutoClaim.Controllers
 {
@@ -22,27 +24,50 @@ namespace AutoClaim.Controllers
         // GET: Policy
         public ActionResult Index()
         {
-           
-            return View();
+            List<Policy> policies = dbContext.Policies.Include(m => m.insurancePolicy).ToList();
+            return View(policies);
+            
 
 
         }
         [HttpGet]
-        public ActionResult Registration( )
+        public ActionResult Registration()
         {
-           
-
-
-            return View();
+            PolicyInsuranceViewModel viewModel = new PolicyInsuranceViewModel();
+            Policy policy = new Policy();
+            var insurancePolicies = dbContext.InsurancePolicies.ToList();
+            viewModel.Policy = policy;
+            viewModel.InsurancePolicies = insurancePolicies;
+            return View(viewModel);
+         
+      
         }
         [HttpPost]
         public ActionResult Registration(Policy policy)
         {
+            if (ModelState.IsValid)
+            {
+                dbContext.Policies.Add(policy);
+                dbContext.SaveChanges();  //store in database
+                return RedirectToAction("Index", "Policy");
+            }
+            else
+            {
+                PolicyInsuranceViewModel viewModel = new PolicyInsuranceViewModel();
+                Policy policy1 = new Policy();
+                var insurancePolicies = dbContext.InsurancePolicies.ToList();
+                viewModel.Policy = policy1;
+                viewModel.InsurancePolicies = insurancePolicies;
+                return View(viewModel);
+            }
 
 
-
+        }
+        public ActionResult CustomerDetails()
+        {
             return View();
         }
+        
 
 
 
