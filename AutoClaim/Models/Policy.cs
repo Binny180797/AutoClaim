@@ -31,6 +31,8 @@ namespace AutoClaim.Models
         [Required]
         public string VechicleType { get; set; }
         [Required]
+        public string VehicleCC { get; set; }
+        [Required]
         [StringLength(100)]
         [DataType(DataType.EmailAddress)]
         [Display(Name ="Email ID")]

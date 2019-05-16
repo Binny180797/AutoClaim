@@ -12,8 +12,9 @@ namespace AutoClaim.Models
         public int Id { get; set; }
         [Required]
         public string VehicleType { get; set; }
+
         [Required]
-        public int VehicleCC { get; set; }
+        public string VehicleCC { get; set; }
         [Required]
         [DataType(DataType.Currency)]
         public int PayableAmount { get; set; }

@@ -151,6 +151,14 @@
     <Compile Include="Migrations\201905141002162_CreateAllTables.Designer.cs">
       <DependentUpon>201905141002162_CreateAllTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905151140384_alterInsurancepolicyTable.cs" />
+    <Compile Include="Migrations\201905151140384_alterInsurancepolicyTable.Designer.cs">
+      <DependentUpon>201905151140384_alterInsurancepolicyTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905151142247_alterPolicyTable.cs" />
+    <Compile Include="Migrations\201905151142247_alterPolicyTable.Designer.cs">
+      <DependentUpon>201905151142247_alterPolicyTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Assessor.cs" />
@@ -161,6 +169,7 @@
     <Compile Include="Models\InsurancePolicy.cs" />
     <Compile Include="Models\RegisteredUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\PolicyInsuranceViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -202,10 +211,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Policy\Registration.cshtml" />
     <Content Include="Views\Policy\Index.cshtml" />
+    <Content Include="Views\Policy\CustomerDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ViewModel\" />
     <Folder Include="Views\Assessor\" />
     <Folder Include="Views\Authorizer\" />
     <Folder Include="Views\Claim\" />
@@ -232,6 +241,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905141002162_CreateAllTables.resx">
       <DependentUpon>201905141002162_CreateAllTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905151140384_alterInsurancepolicyTable.resx">
+      <DependentUpon>201905151140384_alterInsurancepolicyTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905151142247_alterPolicyTable.resx">
+      <DependentUpon>201905151142247_alterPolicyTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
