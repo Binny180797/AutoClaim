@@ -180,6 +180,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\banner.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -193,6 +195,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="styles\style.css" />
+    <Content Include="styles\style2.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -212,12 +216,13 @@
     <Content Include="Views\Policy\Registration.cshtml" />
     <Content Include="Views\Policy\Index.cshtml" />
     <Content Include="Views\Policy\CustomerDetails.cshtml" />
+    <Content Include="Views\Claim\RequestForClaim.cshtml" />
+    <Content Include="Views\Claim\CheckClaimStatus.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Assessor\" />
     <Folder Include="Views\Authorizer\" />
-    <Folder Include="Views\Claim\" />
     <Folder Include="Views\Employee\" />
     <Folder Include="Views\InsurancePolicy\" />
     <Folder Include="Views\RegisteredUser\" />
