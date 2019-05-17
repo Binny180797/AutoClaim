@@ -170,7 +170,6 @@
     <Compile Include="Models\RegisteredUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\PolicyInsuranceViewModel.cs" />
-    <Compile Include="ViewModel\PolicyRegisterUserViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -181,12 +180,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="images\Apply.png" />
-    <Content Include="images\APPLYNOWICON.png" />
-    <Content Include="images\download %281%29.jpg" />
-    <Content Include="images\download.jpg" />
-    <Content Include="images\Request.png" />
-    <Content Include="images\status.jpg" />
+    <Content Include="images\back.jpg" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\insu.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -219,13 +215,9 @@
     <Content Include="Views\Policy\Registration.cshtml" />
     <Content Include="Views\Policy\Index.cshtml" />
     <Content Include="Views\Policy\CustomerDetails.cshtml" />
-    <Content Include="Views\Policy\CreateLogin.cshtml" />
-    <Content Include="Views\Policy\CustomerLogin.cshtml" />
-    <Content Include="Views\Policy\UserLogin.cshtml" />
-    <Content Include="Views\Policy\ReportWithoutRegistration.cshtml" />
-    <Content Include="Views\Policy\Home.cshtml" />
-    <Content Include="Views\Policy\Registration_For_Insurance.cshtml" />
-    <Content Include="Views\Claim\RequestForClaim.cshtml" />
+    <Content Include="Views\Claim\ClientStatus.cshtml" />
+    <Content Include="Views\Policy\Faq.cshtml" />
+    <Content Include="Views\Policy\Last.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
