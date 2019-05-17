@@ -67,11 +67,20 @@ namespace AutoClaim.Controllers
         {
             return View();
         }
-        public ActionResult Privacy()
+        [HttpGet]
+        public ActionResult CreateLogin()
         {
             return View();
         }
-        
+        [HttpPost]
+        public ActionResult CreateLogin(Policy policy)
+        {
+            return View();
+        }
 
+        public ActionResult CustomerLogin()
+        {
+            return View();
+        }
     }
 }
