@@ -82,5 +82,13 @@ namespace AutoClaim.Controllers
         {
             return View();
         }
+        public ActionResult UserLogin()
+        {
+            return View();
+        }
+        public ActionResult ReportWithoutRegistration()
+        {
+            return View();
+        }
     }
 }
