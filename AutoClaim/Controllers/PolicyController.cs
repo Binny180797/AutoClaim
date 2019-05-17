@@ -82,14 +82,13 @@ namespace AutoClaim.Controllers
         {
             return View();
         }
-        public ActionResult Privacy()
+        public ActionResult UserLogin()
         {
             return View();
         }
-        public ActionResult EditCustomerDetails()
+        public ActionResult ReportWithoutRegistration()
         {
             return View();
         }
-
     }
 }
