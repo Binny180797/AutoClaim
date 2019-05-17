@@ -183,6 +183,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="images\Apply.png" />
     <Content Include="images\APPLYNOWICON.png" />
+    <Content Include="images\download %281%29.jpg" />
+    <Content Include="images\download.jpg" />
     <Content Include="images\Request.png" />
     <Content Include="images\status.jpg" />
     <Content Include="Scripts\bootstrap.js" />
@@ -221,6 +223,8 @@
     <Content Include="Views\Policy\CustomerLogin.cshtml" />
     <Content Include="Views\Policy\UserLogin.cshtml" />
     <Content Include="Views\Policy\ReportWithoutRegistration.cshtml" />
+    <Content Include="Views\Policy\Home.cshtml" />
+    <Content Include="Views\Policy\Registration_For_Insurance.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
