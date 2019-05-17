@@ -225,12 +225,12 @@
     <Content Include="Views\Policy\ReportWithoutRegistration.cshtml" />
     <Content Include="Views\Policy\Home.cshtml" />
     <Content Include="Views\Policy\Registration_For_Insurance.cshtml" />
+    <Content Include="Views\Claim\RequestForClaim.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Assessor\" />
     <Folder Include="Views\Authorizer\" />
-    <Folder Include="Views\Claim\" />
     <Folder Include="Views\Employee\" />
     <Folder Include="Views\InsurancePolicy\" />
     <Folder Include="Views\RegisteredUser\" />
