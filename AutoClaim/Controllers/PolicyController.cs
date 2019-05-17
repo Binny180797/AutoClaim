@@ -67,9 +67,36 @@ namespace AutoClaim.Controllers
         {
             return View();
         }
-        
+        [HttpGet]
+        public ActionResult CreateLogin()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult CreateLogin(Policy policy)
+        {
+            return View();
+        }
 
-
-
+        public ActionResult CustomerLogin()
+        {
+            return View();
+        }
+        public ActionResult UserLogin()
+        {
+            return View();
+        }
+        public ActionResult ReportWithoutRegistration()
+        {
+            return View();
+        }
+        public ActionResult Home()
+        {
+            return View();
+        }
+        public ActionResult Registration_For_Insurance()
+        {
+            return View();
+        }
     }
 }

@@ -7,7 +7,7 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
-   
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -22,14 +22,10 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Home", "Policy")</li>
-                    <li>@Html.ActionLink("Login", "UserLogin", "Policy")</li>
-                    <li>@Html.ActionLink("Report Without Register", "ReportWithoutRegistration", "Policy")</li>
+                    
                   
-                    <li>@Html.ActionLink("Apply", "Registration_For_Insurance", "Policy")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-
+                    <li>@Html.ActionLink("Privacy", "EditCustomerDetails", "Policy")</li>
+                    <li>@Html.ActionLink("Personal", "EditCustomerDetails", "Policy")</li>
                 </ul>
             </div>
         </div>
@@ -37,7 +33,7 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer align ="center">
+        <footer align="center">
             <p>&copy; @DateTime.Now.Year - Copyright 2019, Assured Insurance Pvt.Ltd. All Rights Reserved</p>
             @*<p style="text-align:right">you're in good HAnds with Assure Insurance</p>*@
         </footer>
