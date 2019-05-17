@@ -219,6 +219,8 @@
     <Content Include="Views\Policy\CustomerDetails.cshtml" />
     <Content Include="Views\Policy\CreateLogin.cshtml" />
     <Content Include="Views\Policy\CustomerLogin.cshtml" />
+    <Content Include="Views\Policy\Privacy.cshtml" />
+    <Content Include="Views\Policy\EditCustomer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
