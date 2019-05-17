@@ -13,5 +13,9 @@ namespace AutoClaim.Controllers
         {
             return View();
         }
+        public ActionResult ClientStatus()
+        {
+            return View();
+        }
     }
 }

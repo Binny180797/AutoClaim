@@ -180,6 +180,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\back.jpg" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\insu.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -212,12 +215,14 @@
     <Content Include="Views\Policy\Registration.cshtml" />
     <Content Include="Views\Policy\Index.cshtml" />
     <Content Include="Views\Policy\CustomerDetails.cshtml" />
+    <Content Include="Views\Claim\ClientStatus.cshtml" />
+    <Content Include="Views\Policy\Faq.cshtml" />
+    <Content Include="Views\Policy\Last.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Assessor\" />
     <Folder Include="Views\Authorizer\" />
-    <Folder Include="Views\Claim\" />
     <Folder Include="Views\Employee\" />
     <Folder Include="Views\InsurancePolicy\" />
     <Folder Include="Views\RegisteredUser\" />
