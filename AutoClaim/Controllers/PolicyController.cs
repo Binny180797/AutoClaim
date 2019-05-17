@@ -94,9 +94,12 @@ namespace AutoClaim.Controllers
         {
             return View();
         }
+       
         public ActionResult Registration_For_Insurance()
         {
             return View();
         }
+       
+        
     }
 }
